@@ -12,6 +12,33 @@ public static Scanner user = new Scanner(System.in);
 		//whileLoop();
 		//switchStatement();
 	}
+/* //Logical Operators
+
+	public static void compare(){
+	//	|| is the equivilant of "or"
+	//	&& is the equivilant of "and"
+	//	!  is the equivilant of "not"
+	//	== is the equivilant of "equal to"
+	//	^  is the equivilant of "xor"
+
+	int x = 0;
+	int y = 0;
+
+		if(x == y){
+			System.out.println("Has to result in true");
+		} else if(x == y || y == 0){
+			System.out.println("Only one has to result in true");
+		} else if(x == y && y == 0){
+			System.out.println("Both sides have to be true");
+		} else if(x != y)[
+			System.out.println("Can't be true to result in true");
+		} else if(x == y ^ x == 1){
+			System.out.println("ONLY one has to be true");
+		}
+	}
+
+*/
+
 /* //Basic code to count upwards from a lower extremity to an upper
 
 	public static void countUp(){
@@ -89,4 +116,10 @@ public static Scanner user = new Scanner(System.in);
 		}
 	}
 */
+
+
+
+
+
+
 }
