@@ -13,6 +13,24 @@ public static Scanner user = new Scanner(System.in);
 		//switchStatement();
 		//casting();
 	}
+/* //Numeric Promotion
+
+	public static void numericPromotion(){
+	//	Any operand as a double will result in a double
+	//	Any operand as a float will result in a float
+	//	Any operand as a long will result in a long
+	//	byte, short, char, int will result in an int
+	//	(target) = (cast) (expression of various operands)
+
+		byte b = 0, a = 6;
+		int x = 50;
+		b = (byte) (x + a);
+//The expression automatically promotes to int, but since "b" is a byte
+//	the expression must be "cast down" to byte to fit the variable type
+
+	}
+
+*/
 /* //Casting
 	public static void casting(){
 		double x = 1.99;
