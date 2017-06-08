@@ -11,7 +11,19 @@ public static Scanner user = new Scanner(System.in);
 		//ifLoop();
 		//whileLoop();
 		//switchStatement();
+		//casting();
 	}
+/* //Casting
+	public static void casting(){
+		double x = 1.99;
+		int y = (int) x;
+		System.out.println(y);
+		break;
+		
+	}
+
+*/
+
 /* //Logical Operators
 
 	public static void compare(){
