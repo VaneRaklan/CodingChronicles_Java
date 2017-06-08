@@ -15,15 +15,7 @@ public static Scanner user = new Scanner(System.in);
 		//classObject();
 		//instance();
 		//array();
-		arrayLength();
 	}
- //Array Length function
-	public static void arrayLength(){
-		int array[] = {0, 1, 2, 3, 4};
-		System.out.println(array.length);
-	}
-
-
 
 /* //Arrays
 	public static void array(){
