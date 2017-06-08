@@ -21,16 +21,20 @@ public static Scanner user = new Scanner(System.in);
 	public static Object large = new Object();
 
 	public static void instance(){
+
+		//The "small" object will retain its own variable value changes
 		small._length = 5;
 		small._width = 5;
 		small._height = 5;
 		System.out.println("The volume of the small box is: " + small.volume());
-
+		
+		//The ""medium" object will retain its own variable value changes
 		medium._length = 10;
 		medium._width = 10;
 		medium._height = 10;
 		System.out.println("The volume of the mediium box is: " + medium.volume());
 
+		//The "large" object will retain its own variable value changes
 		large._length = 15;
 		large._width = 15;
 		large._height = 15;
