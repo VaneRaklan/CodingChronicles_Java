@@ -12,7 +12,39 @@ public static Scanner user = new Scanner(System.in);
 		//whileLoop();
 		//switchStatement();
 		//casting();
+		//classObject();
+		//instance();
 	}
+/* //Instance Variables
+	public static Object small = new Object();
+	public static Object medium = new Object();
+	public static Object large = new Object();
+
+	public static void instance(){
+		small._length = 5;
+		small._width = 5;
+		small._height = 5;
+		System.out.println("The volume of the small box is: " + small.volume());
+
+		medium._length = 10;
+		medium._width = 10;
+		medium._height = 10;
+		System.out.println("The volume of the mediium box is: " + medium.volume());
+
+		large._length = 15;
+		large._width = 15;
+		large._height = 15;
+		System.out.println("The volume of the large box is: " + large.volume());
+	}
+*/
+
+/* //Basic use of an object
+	public static Object object = new Object();
+	public static void classObject(){
+		object.hello();
+	}
+
+*/
 /* //Numeric Promotion
 
 	public static void numericPromotion(){
