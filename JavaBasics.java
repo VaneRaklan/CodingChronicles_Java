@@ -19,7 +19,7 @@ class JavaBasics{
 		//printNumber(5);
 		input();
 	}
- //Recieving input from consol without Scanner
+ //Recieving input from console without Scanner
 	public static void input() throws java.io.IOException {
 		System.out.print("Please enter a single character:");
         	char c = (char) System.in.read();
