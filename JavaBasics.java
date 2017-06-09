@@ -17,15 +17,15 @@ class JavaBasics{
 		//array();
 		//forEach();
 		//printNumber(5);
-		input();
+		//input();
 	}
- //Recieving input from console without Scanner
+/* //Recieving input from console without Scanner
 	public static void input() throws java.io.IOException {
 		System.out.print("Please enter a single character:");
         	char c = (char) System.in.read();
         	System.out.println("You pressed: " + c);		
 	}
-
+*/
 
 /* //Practice with Methods, return values, and parameters
 	public static int number(int alpha){
@@ -93,6 +93,9 @@ class JavaBasics{
 		large._width = 15;
 		large._height = 15;
 		System.out.println("The volume of the large box is: " + large.volume());
+	//Reference variables are similar to Instance Variables
+	//Reference vairables deal with objects and instances of said object
+	
 	}
 */
 

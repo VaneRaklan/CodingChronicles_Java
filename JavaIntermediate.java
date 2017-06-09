@@ -5,7 +5,7 @@ class JavaIntermediate{
 		//labeledBreak();
 		//labeledContinue();
 	}
-/* //continue syntax and labeled continue statement
+/* //Continue syntax and labeled continue statement
 	public static void labeledContinue(){
 		int array1[] = {0,1,2,3,4,5,6,7,8,9};
 		int array2[] = {0,1,2,3,4,5,6,7,8,9};
