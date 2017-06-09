@@ -4,7 +4,36 @@ class JavaIntermediate{
 		//ternaryOp(0);
 		//labeledBreak();
 		//labeledContinue();
+		//construct();
+		//construct2();
 	}
+
+/* //Intro to constructors
+	//Constructors are part of the class that runs when the class has been initialized
+	//Just like a method, you can pass parameters through a constructer
+	//Unlike a method, a constructor CANNOT return a value
+	
+	public static void construct(){ 
+		Constructor construct = new Constructor();
+	}
+
+	//The "new" operator instantiates the object (allocates memory space for the object to reside)
+	//It also invokes the constructor of the object (referenced class) 
+
+	//Normally you could create an object then manipulate the variables if they are public
+	//If they are private then you can't manipulate the values
+	//However, running parameters through the constructor then setting values
+	//equal to the parameters is a way to bypass reference variables
+
+	//You can have multiple constructors in a class
+	//For this we can create a default constructor replica
+	//and not HAVE to run anything at invoktion
+
+	public static void construct2(){
+		Constructor construct2 = new Constructor(5);
+	}
+*/
+
 /* //Continue syntax and labeled continue statement
 	public static void labeledContinue(){
 		int array1[] = {0,1,2,3,4,5,6,7,8,9};
