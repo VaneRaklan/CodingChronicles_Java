@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 class JavaBasics{
 
-public static Scanner user = new Scanner(System.in);
+	public static Scanner user = new Scanner(System.in);
 
-	public static void main(String args[]){
+	public static void main(String args[]) throws java.io.IOException {
 		//countUp();
 		//countDown();
 		//userInput();
@@ -15,7 +15,36 @@ public static Scanner user = new Scanner(System.in);
 		//classObject();
 		//instance();
 		//array();
+		//forEach();
+		//printNumber(5);
+		input();
 	}
+ //Recieving input from consol without Scanner
+	public static void input() throws java.io.IOException {
+		System.out.print("Please enter a single character:");
+        	char c = (char) System.in.read();
+        	System.out.println("You pressed: " + c);		
+	}
+
+
+/* //Practice with Methods, return values, and parameters
+	public static int number(int alpha){
+		return alpha;
+	}
+	public static void printNumber(int _alpha){
+		System.out.println(number(_alpha));
+	}
+*/
+
+/* //Enhanced for loops aka for each loop
+	public static void forEach(){
+		int index[] = {0,1,2,3,4};
+		for(int i: index){
+			System.out.println(i);
+			System.out.println(" ");
+		}		
+	}
+*/
 
 /* //Arrays
 	public static void array(){
@@ -74,8 +103,8 @@ public static Scanner user = new Scanner(System.in);
 	}
 
 */
-/* //Numeric Promotion
 
+/* //Numeric Promotion
 	public static void numericPromotion(){
 	//	Any operand as a double will result in a double
 	//	Any operand as a float will result in a float
@@ -92,6 +121,7 @@ public static Scanner user = new Scanner(System.in);
 	}
 
 */
+
 /* //Casting
 	public static void casting(){
 		double x = 1.99;
@@ -104,7 +134,6 @@ public static Scanner user = new Scanner(System.in);
 */
 
 /* //Logical Operators
-
 	public static void compare(){
 	//	|| is the equivilant of "or"
 	//	&& is the equivilant of "and"
@@ -131,7 +160,6 @@ public static Scanner user = new Scanner(System.in);
 */
 
 /* //Basic code to count upwards from a lower extremity to an upper
-
 	public static void countUp(){
 		for(int i = 0; i < 10; i ++){
 			System.out.println(i)
@@ -140,7 +168,6 @@ public static Scanner user = new Scanner(System.in);
 */
 
 /* //Basic code to count downwards from an upper extremity to a lower
-
 	public static void countDown(){
 		for(int i = 10; i > 0; i --){
 			System.out.println(i)
@@ -149,7 +176,6 @@ public static Scanner user = new Scanner(System.in);
 */
 
 /* //Basic user input code to print an input
-
 	public static void userInput(){
 		Scanner user = new Scanner(System.in);
 		System.out.println(user.next());
@@ -157,7 +183,6 @@ public static Scanner user = new Scanner(System.in);
 */
 
 /* //Basic if statement w/ user input
-
 	public static void ifLoop(){
 		int x = user.nextInt();
 
@@ -174,7 +199,6 @@ public static Scanner user = new Scanner(System.in);
 */
 
 /* //Basic while loop w/ user input
-
 	public static void whileLoop(){
 		int x = user.nextInt();
 		
@@ -184,10 +208,12 @@ public static Scanner user = new Scanner(System.in);
 		}
 		System.out.println("Aaaaaand, we're done!");
 	}
+	//There is also a do-while loop that will run AT LEAST a single time
+	//do{ }while(){ }
+
 */
 
 /* //Basic switch statement w/ user input
-
 	public static void switchStatement(){
 		int x = user.nextInt();
 
