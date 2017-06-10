@@ -42,6 +42,9 @@ class JavaIntermediate{
 	//For this we can create a default constructor replica
 	//and not HAVE to run anything at invoktion
 
+	//With constructor overloading, you can actually have multiple
+	//of the same number of parameters as long as the data types
+	//for those parameters are different
 	public static void construct2(){
 		Constructor construct2 = new Constructor(5);
 	}
