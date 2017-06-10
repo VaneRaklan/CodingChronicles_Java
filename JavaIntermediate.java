@@ -6,7 +6,20 @@ class JavaIntermediate{
 		//labeledContinue();
 		//construct();
 		//construct2();
+		//construct3();
 	}
+/* //"this" syntax for invoking constructors
+	//Look at Constructor.java to see the use of "this"
+	public static void construct3(){
+		Constructor construct3 = new Constructor();
+	}
+*/
+
+/* //"this" syntax for reference variables
+	//"this" can be used within a class to act like its own object
+	//Primarily this would be used for orginizational purposes
+	//or it would be used to access private variables/methods/etc.
+*/
 
 /* //Intro to constructors
 	//Constructors are part of the class that runs when the class has been initialized
