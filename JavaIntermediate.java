@@ -8,6 +8,12 @@ class JavaIntermediate{
 		//construct2();
 		//construct3();
 	}
+/* //Notes on method overloading
+Just like constructors, method overloading is a thing; having multiple methods under one class.
+Also like constructors, methods can have the same name as long as the parameters are different.
+The parameter count can be the same as well, as long as the data types differ.
+*/
+
 /* //"this" syntax for invoking constructors
 	//Look at Constructor.java to see the use of "this"
 	public static void construct3(){
