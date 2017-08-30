@@ -8,6 +8,13 @@ class JavaIntermediate{
 		//construct2();
 		//construct3();
 	}
+/* //Using the 'final' keyword
+The final keyword can be attatched to variables, methods, and classes. What this keyword does
+is it prevents the attatched entity from being altered at any point after initialization. For
+classes that are final, the class cannot be subclassed
+	
+*/
+	
 /* //Notes on method overloading
 Just like constructors, method overloading is a thing; having multiple methods under one class.
 Also like constructors, methods can have the same name as long as the parameters are different.
