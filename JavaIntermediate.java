@@ -8,6 +8,28 @@ class JavaIntermediate{
 		//construct2();
 		//construct3();
 	}
+/* //Initialization Block
+There are three ways to invoke code within a class:
+-Constructors
+-Methods
+-Initialization Blocks
+
+The primary use for initialization blocks is to apply code across multiple constructors.
+This occurs usually during constructor overloading; when there are multiple constructors in a class
+
+{
+	System.out.println("This is a non-static initialization block");
+}
+
+You can also make an initialization block static, and what this does to the block
+is that it makes it so it will run one time in an entire program when the class is either
+created as an object, or accessed for a variable.
+
+static {
+	System.out.println("This initialization block will only be invoked one time in a single run of this program");
+}
+	*/
+	
 /* //Using the 'final' keyword
 The final keyword can be attatched to variables, methods, and classes. What this keyword does
 is it prevents the attatched entity from being altered at any point after initialization. For
